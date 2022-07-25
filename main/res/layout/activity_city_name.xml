@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    tools:context=".CityName">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/weatherlogo">
+
+
+        </ImageView>
+
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="Enter City"
+            android:textSize="22sp"
+            android:maxLength="20"
+            android:textColor="@color/white"
+            android:textColorHint="#96999E"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp">
+
+        </Button>
+
+</LinearLayout>
